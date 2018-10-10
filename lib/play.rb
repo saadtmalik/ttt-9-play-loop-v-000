@@ -35,14 +35,9 @@ def turn(board)
 end
 
 def play (board)
-<<<<<<< HEAD
   counter = 0
   until counter == 9
     turn(board)
     counter += 1
-=======
-  until turn(board) == 9
-    puts "X"
->>>>>>> bed2e73f00a0c45db618b9a0e161234f86b9170c
   end
 end
